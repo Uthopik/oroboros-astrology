@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="share/oroboros.png" alt="Captura centrada" width="300">
+</p>
+
 # oroboros-astrology
 Open source astrology software written in Python. **New version in Python 3.**
 
