@@ -1,5 +1,5 @@
 # oroboros-astrology
-Open source astrology software written in Python
+Open source astrology software written in Python. New version in python 3.
 
 # AppImage version of Oroboros v20260905
 - **Maitreya-v1.2-x86_64.AppImage** **[Download](https://github.com/Uthopik/maitreya-astrology/releases/download/v8.2/Maitreya-v8.2-x86_64.AppImage)**
