@@ -1,0 +1,103 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+Orbs filters manager.
+
+"""
+
+import sys
+
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
+from oroboros.core.orbsfilters import OrbsFilter, all_orbs_filters_names
+from oroboros.gui.orbfilterdialog import OrbsFilterDialog
+
+
+__all__ = ['OrbsFiltersManagerDialog']
+
+
+
+class OrbsFiltersManagerDialog(QDialog):
+	
+	def __init__(self, parent=None):
+		QDialog.__init__(self, parent)
+		self._parent = parent
+		tr = self.tr
+		self.setWindowTitle(tr('Orbs Filters Manager'))
+		self.setSizeGripEnabled(True)
+		# layout
+		grid = QGridLayout(self)
+		self.setLayout(grid)
+		# list of filters
+		self.filtersBox = QComboBox(self)
+		self.filtersBox.setEditable(False)
+		self.filtersBox.addItems(all_orbs_filters_names())
+		grid.addWidget(self.filtersBox, 0, 0)
+		# buttons
+		buttonsLayout = QHBoxLayout()
+		grid.addLayout(buttonsLayout, 1, 0)
+		newButton = QPushButton(tr('New'), self)
+		newButton.clicked.connect(self.newFilterEvent)
+		buttonsLayout.addWidget(newButton)
+		editButton = QPushButton(tr('Edit'), self)
+		editButton.clicked.connect(self.editFilterEvent)
+		buttonsLayout.addWidget(editButton)
+		deleteButton = QPushButton(tr('Delete'), self)
+		deleteButton.clicked.connect(self.deleteFilterEvent)
+		buttonsLayout.addWidget(deleteButton)
+		closeButton = QPushButton(tr('Close'), self)
+		closeButton.setDefault(True)
+		closeButton.clicked.connect(self.close)
+		buttonsLayout.addWidget(closeButton)
+	
+	def newFilterEvent(self):
+		new = OrbsFilterDialog(self)
+		ok = new.exec_()
+		if ok:
+			self.reset()
+	
+	def editFilterEvent(self):
+		filt = OrbsFilter(
+			all_orbs_filters_names()[self.filtersBox.currentIndex()])
+		edit = OrbsFilterDialog(self, filt)
+		ok = edit.exec_()
+		if ok:
+			self.reset()
+	
+	def deleteFilterEvent(self):
+		tr = self.tr
+		name = all_orbs_filters_names()[self.filtersBox.currentIndex()]
+		ret = QMessageBox.warning(self, tr('Delete Orbs Filter'),
+			str(tr('Are you sure you want to delete orbs filter \xab %(filter)s \xbb ?')) % {
+				'filter': name},
+			QMessageBox.Cancel|QMessageBox.Yes, QMessageBox.Yes)
+		if ret == QMessageBox.Yes:
+			filt = OrbsFilter(name)
+			try:
+				filt.delete()
+			except ValueError: # cannot delete default filter
+				QMessageBox.critical(self, tr('Required Orbs Filter'),
+					tr('Cannot delete required filter.'))
+			self.reset()
+	
+	def reset(self):
+		"""Reload filters list."""
+		self.filtersBox.clear()
+		self.filtersBox.addItems(all_orbs_filters_names())
+
+
+
+def main():
+	app = QApplication(sys.argv)
+	main = OrbsFiltersManagerDialog()
+	main.show()
+	sys.exit(app.exec_())
+
+
+if __name__ == '__main__':
+	main()
+
+# End.
