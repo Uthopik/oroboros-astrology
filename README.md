@@ -2,11 +2,11 @@
 Open source astrology software written in Python. **New version in Python 3.**
 
 # AppImage version of Oroboros v20260905
-- **Maitreya-v1.2-x86_64.AppImage** **[Download](https://github.com/Uthopik/maitreya-astrology/releases/download/v8.2/Maitreya-v8.2-x86_64.AppImage)**
+- **Oroboros-v20260905-x86_64.AppImage** **[Download](https://github.com/Uthopik/oroboros-astrology/releases/download/v20260905/Oroboros-v20260905-x86_64.AppImage)**
 - Right-click the **AppImage** file and grant permission via the **‘Permissions’** menu. Alternatively, in the terminal, grant permission using:
 
 ```bash
-chmod +x ./Maitreya-v8.2-x86_64.AppImage
+chmod +x ./Oroboros-v20260905-x86_64.AppImage
 ```
 
 # Other interesting astrology programs
