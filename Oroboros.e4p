@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.4.dtd">
+<!-- eric4 project file for project Oroboros -->
+<!-- Saved: 2008-07-11, 11:37:08 -->
+<!-- Copyright (C) 2008 Stanislas Marquis, stnsls@gmail.com -->
+<Project version="4.4">
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>Astrology software</Description>
+  <Version>0.1</Version>
+  <Author>Stanislas Marquis</Author>
+  <Email>stnsls@gmail.com</Email>
+  <TranslationPrefix>oroboros/gui/tr/oroboros</TranslationPrefix>
+  <TranslationsBinPath>oroboros/gui/tr/</TranslationsBinPath>
+  <Sources>
+    <Source>oroboros/__init__.py</Source>
+    <Source>setup.py</Source>
+    <Source>oroboros/core/xmlutils.py</Source>
+    <Source>oroboros/core/db.py</Source>
+    <Source>oroboros/core/results.py</Source>
+    <Source>oroboros/core/multicharts.py</Source>
+    <Source>oroboros/core/geonames.py</Source>
+    <Source>oroboros/core/chartdate.py</Source>
+    <Source>oroboros/core/kwdict.py</Source>
+    <Source>oroboros/core/geocoords.py</Source>
+    <Source>oroboros/core/parts.py</Source>
+    <Source>oroboros/core/skylendar.py</Source>
+    <Source>oroboros/core/chartcalc.py</Source>
+    <Source>oroboros/core/planets.py</Source>
+    <Source>oroboros/core/orbsfilters.py</Source>
+    <Source>oroboros/core/chartfile.py</Source>
+    <Source>oroboros/core/planetsfilters.py</Source>
+    <Source>oroboros/core/aspectsresults.py</Source>
+    <Source>oroboros/core/charts.py</Source>
+    <Source>oroboros/core/desktop.py</Source>
+    <Source>oroboros/core/cfg.py</Source>
+    <Source>oroboros/core/__init__.py</Source>
+    <Source>oroboros/core/aspectsrestrictions.py</Source>
+    <Source>oroboros/core/timezone.py</Source>
+    <Source>oroboros/core/midpfilters.py</Source>
+    <Source>oroboros/core/astrolog32.py</Source>
+    <Source>oroboros/core/orbs.py</Source>
+    <Source>oroboros/core/colors.py</Source>
+    <Source>oroboros/core/etc.py</Source>
+    <Source>oroboros/core/filters.py</Source>
+    <Source>oroboros/core/aspectsfilters.py</Source>
+    <Source>oroboros/core/aspects.py</Source>
+    <Source>oroboros/core/orbsrestrictions.py</Source>
+    <Source>oroboros/gui/plntfiltersmandialog.py</Source>
+    <Source>oroboros/gui/orbrestrmandialog.py</Source>
+    <Source>oroboros/gui/orbfilterdialog.py</Source>
+    <Source>oroboros/gui/harmonicsdialog.py</Source>
+    <Source>oroboros/gui/toolbar.py</Source>
+    <Source>oroboros/gui/geonames.py</Source>
+    <Source>oroboros/gui/profectiondialog.py</Source>
+    <Source>oroboros/gui/aspfilterdialog.py</Source>
+    <Source>oroboros/gui/coordswidget.py</Source>
+    <Source>oroboros/gui/asprestrdialog.py</Source>
+    <Source>oroboros/gui/orbrestrdialog.py</Source>
+    <Source>oroboros/gui/dockwidget.py</Source>
+    <Source>oroboros/gui/translations.py</Source>
+    <Source>oroboros/gui/names.py</Source>
+    <Source>oroboros/gui/orbmodifierwidget.py</Source>
+    <Source>oroboros/gui/actions.py</Source>
+    <Source>oroboros/gui/app.py</Source>
+    <Source>oroboros/gui/midpfilterdialog.py</Source>
+    <Source>oroboros/gui/chtflowers.py</Source>
+    <Source>oroboros/gui/filterdialog.py</Source>
+    <Source>oroboros/gui/chtinfodialog.py</Source>
+    <Source>oroboros/gui/filtersmandialog.py</Source>
+    <Source>oroboros/gui/chtpainter.py</Source>
+    <Source>oroboros/gui/menubar.py</Source>
+    <Source>oroboros/gui/__init__.py</Source>
+    <Source>oroboros/gui/orbfiltersmandialog.py</Source>
+    <Source>oroboros/gui/mainwin.py</Source>
+    <Source>oroboros/gui/cfgdialog.py</Source>
+    <Source>oroboros/gui/midpfiltersmandialog.py</Source>
+    <Source>oroboros/gui/centralwidget.py</Source>
+    <Source>oroboros/gui/aspfiltersmandialog.py</Source>
+    <Source>oroboros/gui/asprestrmandialog.py</Source>
+    <Source>oroboros/gui/plntfilterdialog.py</Source>
+    <Source>oroboros/core/bicharts.py</Source>
+    <Source>oroboros/cli/__init__.py</Source>
+    <Source>oroboros/gui/newtabdialog.py</Source>
+    <Source>oroboros/gui/chthtml.py</Source>
+    <Source>oroboros/gui/chtimage.py</Source>
+    <Source>oroboros/gui/saveimagedialog.py</Source>
+    <Source>oroboros/cli/main.py</Source>
+    <Source>oroboros/core/hgrepo.py</Source>
+    <Source>oroboros/cli/hgrepo.py</Source>
+    <Source>oroboros/irc/config.py</Source>
+    <Source>oroboros/irc/__init__.py</Source>
+    <Source>oroboros/irc/plugin.py</Source>
+    <Source>oroboros/irc/test.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+    <Translation>oroboros/gui/tr/oroboros_fr.ts</Translation>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+    <Other>README.txt</Other>
+    <Other>MANIFEST.in</Other>
+    <Other>INSTALL.txt</Other>
+    <Other>Makefile</Other>
+    <Other>CREDITS.txt</Other>
+    <Other>share/oroboros.desktop</Other>
+    <Other>TODO.txt</Other>
+    <Other>epydoc.cfg</Other>
+    <Other>docutils.cfg</Other>
+    <Other>bin</Other>
+    <Other>oroboros/core/sqlite-inserts.sql</Other>
+    <Other>oroboros/core/sqlite-creates.sql</Other>
+    <Other>bin/oroboros-hg</Other>
+    <Other>bin/oroboros</Other>
+    <Other>oroboros/irc/README.txt</Other>
+    <Other>index.rst</Other>
+    <Other>oroboros/core/etc.txt</Other>
+    <Other>BUGS.txt</Other>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>

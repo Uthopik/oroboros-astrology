@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-4.2.dtd">
+<!-- eric4 tasks file for project Oroboros -->
+<!-- Saved: 2008-07-12, 12:20:20 -->
+<Tasks version="4.2">
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: directions</Summary>
+    <Description></Description>
+    <Created>2008-05-05, 02:13:04</Created>
+    <Resource>
+      <Filename>oroboros/ui/mainwin.py</Filename>
+      <Linenumber>312</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>simplifier repr</Summary>
+    <Description></Description>
+    <Created>2008-05-14, 17:45:09</Created>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>simplifer property</Summary>
+    <Description></Description>
+    <Created>2008-05-14, 18:28:43</Created>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>fix save chart</Summary>
+    <Description>cannot saved charts imported from astrolog32</Description>
+    <Created>2008-06-22, 22:38:32</Created>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>add stars and parts asteroids</Summary>
+    <Description></Description>
+    <Created>2008-07-02, 03:25:49</Created>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: directions</Summary>
+    <Description></Description>
+    <Created>2008-07-03, 23:52:12</Created>
+    <Resource>
+      <Filename>oroboros/gui/mainwin.py</Filename>
+      <Linenumber>359</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: fixed stars bug here!?</Summary>
+    <Description></Description>
+    <Created>2008-07-12, 11:13:32</Created>
+    <Resource>
+      <Filename>oroboros/core/chartcalc.py</Filename>
+      <Linenumber>285</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
