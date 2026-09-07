@@ -10,7 +10,7 @@ Open source astrology software written in Python. **New version in Python 3.**
 - Right-click the **AppImage** file and grant permission via the **‘Permissions’** menu. Alternatively, in the terminal, grant permission using:
 
 ```bash
-chmod +x ./Oroboros-v20260905-x86_64.AppImage
+chmod +x ./Oroboros-v20260906-x86_64.AppImage
 ```
 
 # Other interesting astrology programs
