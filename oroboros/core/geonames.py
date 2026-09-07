@@ -1,4 +1,4 @@
-#!/usr/bin/env pythno
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """
