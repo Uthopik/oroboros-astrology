@@ -13,6 +13,13 @@ Open source astrology software written in Python. **New version in Python 3.**
 chmod +x ./Oroboros-v20260906-x86_64.AppImage
 ```
 
+- On **Arch-based** Linux distributions **(Cachy, Manjaro, Endeavour,...)** you can install it via **AUR**:
+
+```bash
+sudo pacman -S --needed base-devel yay
+yay -S oroboros
+```
+
 # Other interesting astrology programs
 
 - **Astronex v2.1 python 3 version.** **[Here](https://uthopik.github.io/astronex)**
