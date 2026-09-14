@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="share/oroboros.png" alt="Captura centrada" width="300">
+  <img src="share/oroboros2.png" alt="Captura centrada" width="300">
 </p>
 
 # oroboros-astrology
@@ -27,3 +27,7 @@ yay -S oroboros
 - **Openastro v1.2** **[Here](https://github.com/Uthopik/openastro-astrology)**
 - **Maitreya v8.2** **[Here](https://github.com/Uthopik/maitreya-astrology)**
 - **Zodiac v0.7.1** **[Here](https://github.com/Uthopik/zodiac-astrology)**
+
+<p align="center">
+  <img src="img/oroboros3.png" alt="Captura centrada" width="800">
+</p>
