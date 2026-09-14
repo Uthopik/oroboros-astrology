@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="share/oroboros2.png" alt="Captura centrada" width="300">
+  <img src="share/oroboros2.png" alt="Captura centrada" width="1000">
 </p>
 
 # oroboros-astrology
@@ -29,5 +29,5 @@ yay -S oroboros
 - **Zodiac v0.7.1** **[Here](https://github.com/Uthopik/zodiac-astrology)**
 
 <p align="center">
-  <img src="img/oroboros3.png" alt="Captura centrada" width="800">
+  <img src="share/oroboros3.png" alt="Captura centrada" width="800">
 </p>
