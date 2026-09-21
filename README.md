@@ -5,12 +5,12 @@
 # oroboros-astrology
 Open source astrology software written in Python. **New version in Python 3.**
 
-# AppImage version of Oroboros v20260906
-- **Oroboros-v20260906-x86_64.AppImage** **[Download](https://github.com/Uthopik/oroboros-astrology/releases/download/v20260906/Oroboros-v20260906-x86_64.AppImage)**
+# AppImage version of Oroboros v20260920
+- **Oroboros-v20260920-x86_64.AppImage** **[Download](https://github.com/Uthopik/oroboros-astrology/releases/download/v20260920/Oroboros-v20260920-x86_64.AppImage)**
 - Right-click the **AppImage** file and grant permission via the **‘Permissions’** menu. Alternatively, in the terminal, grant permission using:
 
 ```bash
-chmod +x ./Oroboros-v20260906-x86_64.AppImage
+chmod +x ./Oroboros-v20260920-x86_64.AppImage
 ```
 
 - On **Arch-based** Linux distributions **(Cachy, Manjaro, Endeavour,...)** you can install it via **AUR**:
