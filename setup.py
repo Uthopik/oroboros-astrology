@@ -109,7 +109,7 @@ Download
 import sys, os
 from distutils.core import setup
 
-VERSION = '20260905'
+VERSION = '20260920'
 
 
 setup(
