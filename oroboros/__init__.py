@@ -23,6 +23,6 @@ Optionally;
 
 """
 
-__version__ = '20260905'
+__version__ = '20260920'
 
 # End.
