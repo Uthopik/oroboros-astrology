@@ -109,7 +109,7 @@ Download
 import sys, os
 from distutils.core import setup
 
-VERSION = '20260920'
+VERSION = '20260924'
 
 
 setup(
@@ -120,8 +120,8 @@ setup(
 	long_description = __doc__,
 	author = 'S.Marquis',
 	author_email = 'stnsls@gmail.com',
-	#url = 'http://oroboros.atarax.org',
-	download_url = 'http://pypi.python.org/pypi/oroboros',
+	#url = 'https://github.com/Uthopik/oroboros-astrology',
+	download_url = 'https://github.com/Uthopik/oroboros-astrology',
 	classifiers = [
 		'Development Status :: 3 - Alpha',
 		'Environment :: X11 Applications :: Qt',
