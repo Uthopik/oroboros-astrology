@@ -14,7 +14,7 @@ import importlib
 
 # Use this for the version of this plugin.  You may wish to put a CVS keyword
 # in here if you're keeping the plugin in CVS or some similar system.
-__version__ = "20080610"
+__version__ = "20260924"
 
 # XXX Replace this with an appropriate author or supybot.Author instance.
 __author__ = supybot.Author('Stanislas Marquis', 'stnsls', 'stnsls@gmail.com')
@@ -24,7 +24,7 @@ __author__ = supybot.Author('Stanislas Marquis', 'stnsls', 'stnsls@gmail.com')
 __contributors__ = {}
 
 # This is a url where the most recent plugin package can be downloaded.
-__url__ = 'http://pypi.python.org/pypi/oroboros'
+__url__ = 'https://github.com/Uthopik/oroboros-astrology'
 
 from . import config
 from . import plugin
