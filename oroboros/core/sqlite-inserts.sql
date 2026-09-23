@@ -1,7 +1,7 @@
 /* Oroboros - SQLite inserts */
 
 /* Info */
-insert into Info (version) values (20260920);/*End*/
+insert into Info (version) values (20260924);/*End*/
 
 
 /* Aspects */
