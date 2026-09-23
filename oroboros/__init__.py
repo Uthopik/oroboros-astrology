@@ -4,7 +4,7 @@
 """
 Astrology for Python.
 
-:See: `Homepage <http://oroboros.atarax.org>`_
+:See: `Homepage <https://github.com/Uthopik/oroboros-astrology>`_
 :Author: Stanislas Marquis
 :Contact: stnsls@gmail.com
 :License: `GNU GPL v3 <http://www.gnu.org/licenses/gpl-3.0.txt>`_
@@ -23,6 +23,6 @@ Optionally;
 
 """
 
-__version__ = '20260920'
+__version__ = '20260924'
 
 # End.
