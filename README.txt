@@ -39,8 +39,8 @@ Optionally:
 Links
 -----
 
-  - Homepage: http://oroboros.atarax.org
-  - Download: http://pypi.python.org/pypi/oroboros
+  - Homepage: https://github.com/Uthopik/oroboros-astrology
+  - Download: https://github.com/Uthopik/oroboros-astrology
 
 Author(s)
 ---------
