@@ -117,7 +117,7 @@ class MainWindow(QMainWindow):
 		msg = str(self.tr("""<qt>This is <b><i>Oroboros</i></b> astrology software (version %(version)s).<br><br>
 
 Copyright &copy; 2008 Stanislas Marquis <a href="mailto:stnsls@gmail.com">stnsls@gmail.com</a><br>
-Homepage <a href="http://pypi.python.org/pypi/oroboros">http://pypi.python.org/pypi/oroboros</a><br><br>
+Homepage <a href="https://github.com/Uthopik/oroboros-astrology">https://github.com/Uthopik/oroboros-astrology</a><br><br>
 
 This is free software; see the license for copying conditions.<br>
 There is NO warranty; not even for MERCHANTABILITY or<br>
