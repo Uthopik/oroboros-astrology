@@ -24,7 +24,7 @@ disclaimer = """
 Oroboros - Astrology software for Python (version %s).
 
 Copyright (C) 2008 Stanislas Marquis <stnsls@gmail.com>
-Homepage http://oroboros.atarax.org
+Homepage https://github.com/Uthopik/oroboros-astrology
 
 This is free software; see the license for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
