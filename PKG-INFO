@@ -1,12 +1,12 @@
 Metadata-Version: 1.0
 Name: oroboros
-Version: 20080712
+Version: 20260924
 Summary: Astrology software
 Home-page: UNKNOWN
 Author: S.Marquis
 Author-email: stnsls@gmail.com
 License: UNKNOWN
-Download-URL: http://pypi.python.org/pypi/oroboros
+Download-URL: https://github.com/Uthopik/oroboros-astrology
 Description: *Oroboros* is an astrology software written in Python.
         It is based on the following modules:
         
